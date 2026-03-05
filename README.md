@@ -1,6 +1,6 @@
 CS Ticket System Live Link: https://crowded-rhythm.surge.sh
 
-Question: What is JSX, and why is it used?
+1. Question: What is JSX, and why is it used?
 Answer : JSX stands for JavaScript XML.
 It’s a syntax extension for JavaScript that allows  to write HTML-like code inside JavaScript.
 Example:
@@ -15,7 +15,7 @@ looks like HTML, so web developers find it easier to work with.
 Helps React developers quickly see the structure of the UI.
 
 
- Question: What is the difference between State and Props?
+2. Question: What is the difference between State and Props?
 Answer : State is an object that stores data inside a component while 
 properties/ Props, used to pass data from parent to child component.
  State is mutable (can be changed using setState or useState) but Props is 
@@ -29,7 +29,7 @@ Examples :
  Props ;
  <Child name="Fahmida" />
 
- Queation: What is the useState hook, and how does it work?
+3. Queation: What is the useState hook, and how does it work?
   Answer : useState is a React Hook that lets to add state to a 
   functional component.
   Example:
@@ -48,7 +48,7 @@ return (
 When developers  call the setter function (like setCount(count + 1)), 
 React re-renders the component with the new value.
 
-Question: How can you share state between components in React?
+4. Question: How can you share state between components in React?
 Answer : This is known as “Lifting State Up”. The process: 
 move the state to the closest common parent of the components that need it.
 pass state down as props.
@@ -70,7 +70,7 @@ function ChildButton({ setCount }) {
   return <button onClick={() => setCount(prev => prev + 1)}>Increase</button>;
 }
 
- Question: How is event handling done in React?
+5. Question: How is event handling done in React?
  Answer : In React, event handling is similar to HTML but with
  camelCase syntax and functions.
  Example:
