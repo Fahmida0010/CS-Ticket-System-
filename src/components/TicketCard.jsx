@@ -26,7 +26,6 @@ export default function TicketCard({ ticket }) {
       }`}
       onClick={handleClick}
     >
-      {/* Ticket ID */}
       <div className="text-sm text-pink-600 font-medium">
         #{ticket.id}
       </div>
