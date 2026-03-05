@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-10 grid gap-10 
       sm:grid-cols-2 md:grid-cols-3">
 
-        {/* Logo + Description */}
+        {/*name Description */}
         <div>
           <h2 className="text-2xl font-bold text-green-400 mb-3">
             CS Ticket System
