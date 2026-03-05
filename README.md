@@ -1,4 +1,4 @@
-customer-management-zone  Live Link: https://crowded-rhythm.surge.sh
+CS Ticket System Live Link: https://crowded-rhythm.surge.sh
 
 Question: What is JSX, and why is it used?
 Answer : JSX stands for JavaScript XML.
